@@ -1,9 +1,8 @@
-Provenance: 	Introduction to UE4 Programming
+Provenance: 	
 
+		Introduction to UE4 Programming
 		by [Lauren] of Unreal Engine
-
 		Tutorial playlist can be found at: 
-
 		https://www.youtube.com/playlist?list=PLZlv_N0_O1gb5xvsc7VM7pfoRAKLuIcFi
 
 Project: 3rdPersonBatteryDemo
