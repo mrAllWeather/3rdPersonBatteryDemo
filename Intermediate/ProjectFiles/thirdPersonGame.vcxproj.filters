@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\thirdPersonGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{28AA9AF3-7F4C-4EF3-9429-EAF346CC3D49}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\thirdPersonGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\thirdPersonGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F4C5B1D8-1794-41AB-A712-3FB69BD26466}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\thirdPersonGame">
+			<UniqueIdentifier>{439662C1-D435-4087-82F8-2D7FB0EF6551}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\thirdPersonGame\thirdPersonGame.Build.cs">
+			<Filter>Source\thirdPersonGame</Filter>
+		</None >
+		<Filter Include="Source\thirdPersonGame\Private">
+			<UniqueIdentifier>{26476EB5-0BB1-48C5-8FEA-B3179701ADE8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\thirdPersonGame\Private\BatteryPickup.cpp">
+			<Filter>Source\thirdPersonGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\thirdPersonGame\Private\Pickup.cpp">
+			<Filter>Source\thirdPersonGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\thirdPersonGame\Private\thirdPersonGame.cpp">
+			<Filter>Source\thirdPersonGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\thirdPersonGame\Private\thirdPersonGameCharacter.cpp">
+			<Filter>Source\thirdPersonGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\thirdPersonGame\Private\thirdPersonGameGameMode.cpp">
+			<Filter>Source\thirdPersonGame\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\thirdPersonGame\Public">
+			<UniqueIdentifier>{DAD2C6B2-FDD6-4604-B84D-3A4E6BE147AD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\thirdPersonGame\Public\BatteryPickup.h">
+			<Filter>Source\thirdPersonGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\thirdPersonGame\Public\Pickup.h">
+			<Filter>Source\thirdPersonGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\thirdPersonGame\Public\thirdPersonGame.h">
+			<Filter>Source\thirdPersonGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\thirdPersonGame\Public\thirdPersonGameCharacter.h">
+			<Filter>Source\thirdPersonGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\thirdPersonGame\Public\thirdPersonGameGameMode.h">
+			<Filter>Source\thirdPersonGame\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\thirdPersonGame\Resources">
+			<UniqueIdentifier>{2B15A904-90AC-43C9-8852-076E492B9B3C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\thirdPersonGame\Resources\Windows">
+			<UniqueIdentifier>{6A537F6A-0541-4DCA-9FAE-50D1F50D600B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\thirdPersonGame\Resources\Windows\thirdPersonGame.ico">
+			<Filter>Source\thirdPersonGame\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\thirdPersonGame\Resources\Windows\thirdPersonGame.rc">
+			<Filter>Source\thirdPersonGame\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
