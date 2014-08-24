@@ -18,6 +18,6 @@ class ABatteryPickup : public APickup
 	float PowerLevel;
 	
 	/* Override the OnPickedUp function (use Implementation because this is a BlueprintNativeEvent) */
-	void OnPickedUp_Implementation() override;
+	void OnPickedUp_Implementation();
 	
 };

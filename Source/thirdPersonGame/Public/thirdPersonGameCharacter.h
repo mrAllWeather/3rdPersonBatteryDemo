@@ -33,7 +33,7 @@ class AthirdPersonGameCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Power)
 	float BaseSpeed;
 
-	virtual void Tick(float DeltaSeconds) override;
+	virtual void Tick(float DeltaSeconds);
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
