@@ -1,7 +1,7 @@
 Provenance: 	
 
 	Introduction to UE4 Programming
-	by [Lauren] of Unreal Engine
+	by Epic Games
 	Tutorial playlist can be found at: 
 	https://www.youtube.com/playlist?list=PLZlv_N0_O1gb5xvsc7VM7pfoRAKLuIcFi
 
